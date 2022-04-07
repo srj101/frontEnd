@@ -1,0 +1,38 @@
+.caoursel-container a, .caoursel-container a span {display: block;}
+
+
+
+.videoCarousel .caoursel-container a span::after {
+    content: "\f04b";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2BAF48;
+    font-size: 20px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 1000;
+    background: #fff;
+    padding: 5px 11px;
+    border-radius: 50px;
+    border: 1px #2BAF48 solid;
+}
+
+
+
+.hover-contents {
+    position: absolute;
+    bottom: 15px;
+    opacity: 1;
+    transition: .3s ease-in;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-right: 15px solid #fff;
+    border-left: 15px solid #fff;
+    background: rgba(43, 175, 72, 1);
+    color: #fff;
+    text-align: left;
+    padding: 10px 20px;
+}

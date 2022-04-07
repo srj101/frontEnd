@@ -1,0 +1,55 @@
+.footerArea {background: #3baf48;}
+
+.team_members.footer-widget h2 {font-size: 16px;color: #fff;}
+
+.teammates_images img {border: 6px solid #fff;border-radius: 73px;width: 40px;height: 40px;}
+
+.teammates_images {display: flex;justify-content: space-between;}
+
+h3.widget-title {color: #fff;font-weight: 700;}
+
+.footer-widget ul {list-style: none;margin: 0;padding: 0;}
+
+.footer-widget ul li a {color: #fff;text-decoration: none;}
+
+.footer-widget {text-align: left;}
+
+a.app_download {display: inline-block;background: #000;color: #fff;text-decoration: none;border-radius: 7px;padding: 7px 30px;margin-bottom: 15px;margin-top: 15px;}
+a.app_download:hover{
+background-color: #ffffff;
+}
+
+.footer-download-app {display: flex;flex-direction: column;align-items: center;color:#fff;}
+
+
+
+.footer_contact input[type=email] {border: none;border-top-left-radius: 15px;border-bottom-left-radius: 15px;padding: 5px 15px; font-size: 15px;}
+
+.footer_contact input[type=button] {background: #2BAF48;color: #fff;border: 0px;}
+
+.footer_contact {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footerArea {padding: 40px 0;}
+
+.footer_bottom {
+    padding: 15px 0;
+    color: #fff;
+    font-size: 15px;
+}
+.footer_contact input[type=submit] {
+    background-color: #000;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px 15px;
+    border: 0px;
+    font-size: 15px;
+}
+.footer_contact input[type=submit]:hover{
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+}

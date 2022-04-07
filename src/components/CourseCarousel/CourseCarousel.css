@@ -1,0 +1,42 @@
+span.rating {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+
+.caoursel-container a span .hover-content {
+    opacity: 1;
+    position: absolute;
+    transition: all .2s ease-out;
+    background: rgba(43, 175, 72, 0.71);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-style: italic;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+   
+    right: 0;
+    width: 80%;
+    height: 85%;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-right: 0px;
+    align-items: center;
+    padding: 0 10px;
+    border: 15px solid rgba(43, 175, 72, 0.71);
+}
+.courseCarousel .caoursel-container img {
+    height: 200px;
+}
+
+.hover-content p {
+    font-size: 18px;
+}

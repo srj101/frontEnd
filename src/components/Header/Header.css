@@ -1,0 +1,80 @@
+ .header_area {
+    background: #3baf48;
+}
+
+nav.navigation.navbar.navbar-light.bg-light {
+    background: none !important;
+    padding: 40px 0px;
+    position: relative;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+.searchBox {
+    display: flex;
+    align-items: center;
+}
+a.logo img {
+    height: 125px;
+}
+button.navigationToggleController.navbar-toggler.collapsed {
+    width: 8%;
+}
+.searchBox input {
+    border: none;
+    padding: 12px 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.5px 2.5px rgba(231, 45, 45, 0.25);
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    width: 75%;
+    font-size: 15px;
+    color: #000;
+}
+
+button.navigationToggleController.navbar-toggler {
+    position: absolute;
+    right: 5%;
+    background:#F4F4F4;
+    border-radius: 25px;
+    padding: 15px 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    font-size: 16px;
+    box-shadow: 0px 2.5px 2.5px rgba(231, 45, 45, 0.25);
+    margin-right: 0;
+}
+button.navigationToggleController.navbar-toggler {
+    margin-right: 0 !important;
+} 
+
+.offCanvasNavigation .offcanvas-body a {
+    padding: 0 0px;
+    color: #3baf48;
+    padding: 6px 15px;
+    text-decoration: none;
+}
+.offCanvasNavigation {
+    width: 270px !important; 
+    background-color: #e4e4e4 !important;
+}
+.offCanvasNavigation .offcanvas-body {
+    padding: 0;
+}
+.offcanvasNavbarDropdown, .offcanvas-body .offcanvas-header , .offCanvasNavigation .offcanvas-body a{
+    background-color:#e4e4e4;
+}
+
+
+
+.offcanvasNavbarDropdown, .offcanvas-body .offcanvas-header, .offCanvasNavigation .offcanvas-body a {
+    background-color: #e4e4e4;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.dropdown-menu{
+    color: #e4e4e4;
+    background-color: none;
+} 

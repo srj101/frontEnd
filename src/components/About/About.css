@@ -1,0 +1,46 @@
+
+.div1about{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 170px;
+    border-radius: 300px 450px 350px 500px;
+    background-position: auto;
+    border-bottom: 20px #2BAF48 solid;
+    border-left: 15px #e4e4e4 solid;
+    background-image: url(https://i.ibb.co/WKtNBVD/stock-photo-56643970.webp);
+    background-attachment: fixed;
+}
+.h2about{
+    color:#2BAF48 ;
+    font-size: 40px;
+    margin-left: 50%;
+}
+.h1about{
+    color:#2BAF48;
+    margin-top:30px;
+
+}
+.p1about{
+    color:#2BAF48;
+    text-align: right;
+    margin-right: 30px;
+    font-size:16px;
+}
+.h1about ,.h2about::first-letter{
+    font-size: 50px;
+}
+.h3about{
+    color: #2BAF48;
+}
+.form1about{
+    width: 800px;
+    margin-left: 100px;
+}
+.form-label{
+    margin-right: 800px;
+}
+.btn-primary{
+    width: 100px;
+    background-color: #2BAF48;
+}

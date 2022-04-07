@@ -1,0 +1,18 @@
+.caoursel-container a, .caoursel-container a span {
+    display: block;
+}
+
+
+.caoursel-container a span {
+    position: relative;
+}
+.newsCarousel .styles-module_carousel-arrow__26sRw {
+    opacity: 0 !important;
+}
+.newsCarousel .caoursel-container img {
+    height: 230px;
+}
+.newsCarousel .caoursel-container a span:hover .hover-contents {
+    bottom: 15px;
+    opacity: 1;
+}

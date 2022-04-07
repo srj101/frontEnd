@@ -1,0 +1,36 @@
+.plantMiniShopArea img {
+    height: 180px;
+    width: 100%;
+}
+.plantMiniShopArea span.single-plant {
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.shop-hover-content {
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    background: rgba(43, 175, 72, 0.71);
+    width: 100%;
+    padding: 15px 5px;
+    transition: .3s ease-out;
+}
+.shop-hover-content p {margin-bottom: 5px;color: #fff;}
+
+.shop-hover-content .buyNow {
+    color:#000;text-decoration: none;background:#fff;padding: 7px 17px;border-radius: 15px;font-size: 13px;}
+span.seeMore {display: inline-block;text-align: right;padding: 20px 0;}
+
+span.seeMore a {background: #2BAF48;color: #fff;text-decoration: none;padding: 10px 30px;border-radius: 20px; font-size: 16px;}
+.buyNow:hover{
+    color:#fff;
+    background-color: #000;
+}
+span.seeMore a:hover{
+    background-color: #69c67d;
+}

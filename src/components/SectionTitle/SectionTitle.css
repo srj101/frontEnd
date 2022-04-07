@@ -1,0 +1,27 @@
+.mainvideotitle {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    background: #2BAF48;
+    padding: 6px 15px;
+}
+.videosection-title {
+    display: flex;
+}
+.mainvideotitle::first-letter{
+    font-size: 30px;
+    font-weight: 500;
+}
+.line1{
+    width: 50%;
+    margin-left: 30%;
+    height: .3px;
+    background-color: rgba(43, 175, 72, 0.71);
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.section-title-area {
+    padding: 50px 0;
+}

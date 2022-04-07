@@ -1,0 +1,33 @@
+.shop_page {padding: 35px 0;}
+
+.sideBar {box-shadow: 0px 0px 11px #eee;padding: 30px 30px;text-align: left;}
+
+.listOfCats {display: flex;margin-bottom: 30px;flex-direction: column;}
+
+.listOfCats span {cursor: pointer;border: 1px solid #e4e4e4;padding: 10px 15px;}
+
+.sideBar h3 {text-transform: uppercase;margin-bottom: 15px;}
+
+a.single_relatedProduct {display: flex;align-items: center;}
+
+.relatedPlantImage img {width: 100%;height: 100%;}
+
+.relatedPlantImage {flex-basis: 30%;}
+
+.related_productsContents h3 {font-size: 13px;margin: 0;}
+
+.related_productsContents {padding: 0 10px;}
+
+a.single_relatedProduct {border: 1px solid #e4e4e4;padding: 10px 10px;}
+
+.related_productsContents p {color: #000;}
+
+.breadcrumb {display: flex;flex-direction: column;text-align: left;}
+
+.plant_image img {height: 150px;width: 100%;}
+
+.single_plant {box-shadow: 0 0 4px #e4e4e4;min-height: 263px;color: #000;}
+
+.plant_desc {padding: 15px 15px;text-align: left;padding-bottom: 5px;margin-bottom: 40px;}
+
+.plant_desc h3 {font-size: 20px;}
