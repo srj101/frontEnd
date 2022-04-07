@@ -15,8 +15,8 @@ function Footer() {
                                 <h2>আমাদের টিমের সদস্যরা</h2>
                                 <div className="teammates_images">
                                     <img src="https://i.ibb.co/K6cR41y/IMG-20200510-010716-674.jpg" alt="" />
-                                    <img src="https://gravatar.com/avatar/52895825092ea78cc046d75cce45ebb1?s=200&d=mp&r=x" alt="" />
-                                    <img src="https://gravatar.com/avatar/52895825092ea78cc046d75cce45ebb1?s=200&d=mp&r=x" alt="" />
+                                    <img src="https://i.postimg.cc/K8XgqmtH/274989892-493596848843608-6440486483695449741-n.jpg" alt="" />
+                                    <img src="https://i.postimg.cc/yxQygt5z/FF978109-584-C-40-B6-9058-547589-EFA592-1-201-a.jpg" alt="" />
                                 </div>
                             </div>
                         </Col>

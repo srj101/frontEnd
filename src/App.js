@@ -17,6 +17,7 @@ import SingleNews from './components/pages/news/SingleNews';
 import Course from './components/pages/courses/courses.component';
 import SingleCourse from './components/pages/courses/SingleCourse';
 import Checkout from './components/pages/Checkout';
+import SingleShop from './components/pages/Shop/SingleShop';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>} ></Route>
         <Route  path='/shop' element={<Shop></Shop>} ></Route>
+        <Route  path='/plants/:plantId' element={<SingleShop/>} ></Route>
         <Route path='/offer' element={<Offer></Offer>} ></Route>
         <Route path='/news' element={<News/>} ></Route>
         <Route path='/news/:newsId' element={<SingleNews/>} ></Route>
@@ -39,7 +41,9 @@ function App() {
         
         <Route path='/courses'  element={<Course/>} ></Route>
         <Route path='/courses/:courseId' element={<SingleCourse/>} ></Route>
+
         <Route path='/courses/checkout/:courseId' element={<Checkout type="course"/>} ></Route>
+        <Route path='/plants/checkout/:plantId' element={<Checkout type="plant"/>} ></Route>
 
         <Route path='/*' element={<NotFound></NotFound>} ></Route>
 

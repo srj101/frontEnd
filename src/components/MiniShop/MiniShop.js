@@ -30,7 +30,7 @@ function MiniShop() {
                           <div className="shop-hover-content">
                                 <p className="name">{plant.name}</p>
                               <p className="price">মূল্য: {plant.price} টাকা</p>
-                              <Link className='buyNow' to={`/plant/${plant.id}`}>অর্ডার করুন</Link>
+                              <Link className='buyNow' to={`/plants/${plant.id}`}>অর্ডার করুন</Link>
                           </div>
                           </span></Col>
                         ))
