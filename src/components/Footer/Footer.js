@@ -26,12 +26,12 @@ function Footer() {
                                 তালিকা
                                 </h3>
                                 <ul>
-                                    <li><a href="/">মূল পাতা</a></li>
-                                    <li><a href="/videos">ভিডিও</a></li>
-                                    <li><a href="/news">সংবাদ</a></li>
-                                    <li><a href="/courses">পাঠ্যধারা</a></li>
-                                    <li><a href="/shop">পণ্য সামগ্রী</a></li>
-                                    <li><a href="/about">আমাদের সম্পর্কে</a></li>
+                                    <li><Link to="/">মূল পাতা</Link></li>
+                                    <li><Link to="/videos">ভিডিও</Link></li>
+                                    <li><Link to="/news">সংবাদ</Link></li>
+                                    <li><Link to="/courses">পাঠ্যধারা</Link></li>
+                                    <li><Link to="/shop">পণ্য সামগ্রী</Link></li>
+                                    <li><Link to="/about">আমাদের সম্পর্কে</Link></li>
                                 </ul>
                             </div>
                         </Col>
@@ -41,8 +41,8 @@ function Footer() {
                                 সংবাদ
                                 </h3>
                                 <ul>
-                                    <li><a href="/news/624b40fdaec54526c5598984">গমের ব্লাস্ট রোগের লক্ষণ ও প্রতিকার</a></li>
-                                    <li><a href="/news/624b3fbcaec54526c559897b">ইড্রোপনিক পদ্ধতিতে চাষযোগ্য ফসল</a></li>
+                                    <li><Link to="/news/624b40fdaec54526c5598984">গমের ব্লাস্ট রোগের লক্ষণ ও প্রতিকার</Link></li>
+                                    <li><Link to="/news/624b3fbcaec54526c559897b">ইড্রোপনিক পদ্ধতিতে চাষযোগ্য ফসল</Link></li>
                     
                                 </ul>
                             </div>
@@ -53,8 +53,8 @@ function Footer() {
                                 ভিডিও
                                 </h3>
                                 <ul>
-                                    <li><a href="/videos/624b0827c7edc1d31436053c">মাছ চাষ - সবজি চাষ - ৩৫০০০০ টাকা আয় ৬মাসে</a></li>
-                                    <li><a href="/videos/624b0898c7edc1d314360543">পেঁপে আবাদে ভাগ্য পাল্টেছে আবু বক্কর সিদ্দিকের </a></li>
+                                    <li><Link to="/videos/624b0827c7edc1d31436053c">মাছ চাষ - সবজি চাষ - ৩৫০০০০ টাকা আয় ৬মাসে</Link></li>
+                                    <li><Link to="/videos/624b0898c7edc1d314360543">পেঁপে আবাদে ভাগ্য পাল্টেছে আবু বক্কর সিদ্দিকের </Link></li>
                                     
                                 </ul>
                             </div>
@@ -65,8 +65,8 @@ function Footer() {
                                 পাঠ্যধারা
                                 </h3>
                                 <ul>
-                                    <li><a href="/courses/624c4abe82435018cdeb2e25">দুগ্ধবতী গাভী লালন পালন বিষয়ক প্রশিক্ষণ</a></li>
-                                    <li><a href="/courses/624b4fb5aec54526c5598a53">কিভাবে রাম্বুটান গাছ রোপন করতে হয়</a></li>
+                                    <li><Link to="/courses/624c4abe82435018cdeb2e25">দুগ্ধবতী গাভী লালন পালন বিষয়ক প্রশিক্ষণ</Link></li>
+                                    <li><Link to="/courses/624b4fb5aec54526c5598a53">কিভাবে রাম্বুটান গাছ রোপন করতে হয়</Link></li>
                                     
                                 </ul>
                             </div>
