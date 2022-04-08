@@ -18,6 +18,7 @@ import Course from './components/pages/courses/courses.component';
 import SingleCourse from './components/pages/courses/SingleCourse';
 import Checkout from './components/pages/Checkout';
 import SingleShop from './components/pages/Shop/SingleShop';
+import OrderSuccess from './components/pages/OrderSuccess';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
 
         <Route path='/courses/checkout/:courseId' element={<Checkout type="course"/>} ></Route>
         <Route path='/plants/checkout/:plantId' element={<Checkout type="plant"/>} ></Route>
+        <Route path='/orders/success' element={<OrderSuccess/>} ></Route>
 
         <Route path='/*' element={<NotFound></NotFound>} ></Route>
 
