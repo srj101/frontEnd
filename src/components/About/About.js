@@ -31,16 +31,16 @@ const About = () => {
           <div class="item">
             <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
               <div class="testimonial-text">
-                <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                <p class="bottom40">আমি এই ওয়েব এপ্লিকেশনে এর ফ্রন্ট এন্ড ডেভেলপারে ও ব্যাক-এন্ড ডেভেলপার হিসেবে নিয়োজিত ছিলাম।</p>
               </div>
               <div class="testimonial-photo"><img alt="" src="https://i.ibb.co/jftFtSn/salim.jpg"/></div>
               <h4 class="darkcolor">Salim Raza Joy</h4>
-              <small class="defaultcolor">Backend Developer</small> </div>
+              <small class="defaultcolor">Full Stack Developer</small> </div>
           </div>
           <div class="item">
             <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
               <div class="testimonial-text">
-                <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                <p class="bottom40">টিমওয়ার্ক ছাড়া এই প্রজেক্টি করার অসম্ভব ছিল। আমি এই ওয়েব এপ্লিকেশনে ইউআই/ইউএক্স ডিজাইনার ও ফ্রন্ট এন্ড ডেভেলপারে হিসেবে নিয়োজিত ছিলাম।</p>
               </div>
               <div class="testimonial-photo"><img alt="" src="https://i.ibb.co/K6cR41y/IMG-20200510-010716-674.jpg"/></div>
               <h4 class="darkcolor">Sakib Sarker</h4>
@@ -49,7 +49,7 @@ const About = () => {
           <div class="item">
             <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
               <div class="testimonial-text">
-                <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                <p class="bottom40">আমি এই ওয়েব এপ্লিকেশনে ইউআই ডিজাইনার ও কন্টেন্ট ডেভেলপার হিসেবে নিয়োজিত ছিলাম।</p>
               </div>
               <div class="testimonial-photo"><img alt="" src="https://i.postimg.cc/K8XgqmtH/274989892-493596848843608-6440486483695449741-n.jpg"/></div>
               <h4 class="darkcolor">Sheikh Foysal</h4>
