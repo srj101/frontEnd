@@ -37,16 +37,8 @@ const Header = () => {
                         <Link to="/news">সংবাদ</Link>
                         <Link to="/courses">পাঠ্যধারা</Link>
                         <Link to="/shop">পণ্য সামগ্রী</Link>
-                        <Link to="/offer">ডিসকাউন্ট সামগ্রী</Link>
                         <Link to="/about">আমাদের সম্পর্কে</Link>
-                        <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
-                          <NavDropdown.Item className='actionnav' href="#action3">Action</NavDropdown.Item>
-                          <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                          <NavDropdown.Divider />
-                          <NavDropdown.Item href="#action5">
-                            Something else here
-                          </NavDropdown.Item>
-                        </NavDropdown>
+                        
                       </Nav>
                     </Offcanvas.Body>
                   </Navbar.Offcanvas>
