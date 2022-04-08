@@ -4,13 +4,24 @@ import './About.css'
 const About = () => {
     return (
         <div className='pridivabout'>
-          <div>
+          
+<div>
+
+<h1 className='h2about'>আমাদের লক্ষ্য</h1>
+<p className='p1about'>জলবায়ু পরিবর্তনের বিরূপ প্রভাব প্রতিরোধের জন্য গাছ লাগানো জরুরি হলেও গড়ে প্রতি ২৪ ঘণ্টায় দেশের <br/>প্রায় ১ লাখ ৩০ হাজার পরিবেশবান্ধব ফুল ও ফলের গাছ কাটা হচ্ছে।
+ অথচ লাগানো হচ্ছে মাত্র ৩০ হাজার।<br/>(সূত্রে: বাংলাদেশ নার্সারি সমিতি)<br/>যার ভলে পরিবেশের ভারসাম্য নষ্ট হচ্ছে  শুধুমাত্র পরিবেশের ভারসাম্য নষ্ট নয়, গাছ আমাদের বিভিন্নভাবে সহায়তা করে।<br/>
+তাই আমরা মনেকরি, গাছপালা ধ্বংস ও বৃক্ষচ্ছেদন রোধ করার জন্য আমাদের জনসাধারণকে বৃক্ষ রোপণে উৎসাহিত করতে হবে।<br/>অ্যাপ্লিকেশনটি কৃষক এবং জনসাধারণকে গাছের পরিচর্যা করার নিয়মগুলো জানতে এবং বিভিন্ন জাতের বৃক্ষ রোপণে উৎসাহিত করবে।</p>
+<h1 className='h3about'>আমাদের অ্যাপ্লিকেশন সম্পর্কে</h1>
+<p className='p2about'> এই অ্যাপ্লিকেশনটি কৃষক এবং জনসাধারণকে গাছের পরিচর্যা করার নিয়মগুলো জানতে এবং বিভিন্ন জাতের গাছ রোপণে উৎসাহিত করবে।<br/>
+গাছ রোপণের নির্দেশাবলীর জন্য আমরা আমাদের ওয়েব অ্যাপ্লিকেশনে কিছু বিনামূল্যের ভিডিও রেখেছি। <br/>
+আমদের অ্যাপ্লিকেশনে গাছের পরিচর্যা করার নিয়ম এবং বিভিন্ন জাতের বৃক্ষ রোপণের সর্বশেষ খবর, ভিডিও, কোর্স এবং ইকমার্স প্রদান করেছি। <br/>আমরা কৃষকদের জন্য আমাদের ওয়েব অ্যাপ্লিকেশনে ইকমার্স বৈশিষ্ট্য ব্যবহার করেছি যার ব্যবহার করে আধুনিক কৃষি যন্ত্রপাতি,বিদেশি ফলের গাছ, এবং নতুন আবিষ্কৃত উদ্ভিদ কিনতে পারবে।</p> </div>
+<div>
 <section id="our-testimonial" class="padding">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12 text-center">
         <div class="heading-title bottom30 wow fadeInUp" data-wow-delay="300ms">
-          <h2 class="darkcolor">আমাদের দলের সদস্যরা</h2>
+          <h2 class="amaderdol">আমাদের দলের সদস্যরা</h2>
         </div>
       </div>
     </div>
@@ -20,29 +31,29 @@ const About = () => {
           <div class="item">
             <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
               <div class="testimonial-text">
-                <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                <p class="bottom40">আমি এই ওয়েব এপ্লিকেশনে এর ফ্রন্ট এন্ড ডেভেলপারে ও ব্যাক-এন্ড ডেভেলপার হিসেবে নিয়োজিত ছিলাম।</p>
               </div>
-              <div class="testimonial-photo"><img alt="" src="https://i.ibb.co/K6cR41y/IMG-20200510-010716-674.jpg"/></div>
-              <h4 class="darkcolor">Sam David</h4>
-              <small class="defaultcolor">Backend Developer</small> </div>
+              <div class="testimonial-photo"><img alt="" src="https://i.ibb.co/jftFtSn/salim.jpg"/></div>
+              <h4 class="darkcolor">Salim Raza Joy</h4>
+              <small class="defaultcolor">Full Stack Developer</small> </div>
           </div>
           <div class="item">
             <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
               <div class="testimonial-text">
-                <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                <p class="bottom40">টিমওয়ার্ক ছাড়া এই প্রজেক্টি করার অসম্ভব ছিল। আমি এই ওয়েব এপ্লিকেশনে ইউআই/ইউএক্স ডিজাইনার ও ফ্রন্ট এন্ড ডেভেলপারে হিসেবে নিয়োজিত ছিলাম।</p>
               </div>
               <div class="testimonial-photo"><img alt="" src="https://i.ibb.co/K6cR41y/IMG-20200510-010716-674.jpg"/></div>
-              <h4 class="darkcolor">Jams Shah</h4>
-              <small class="defaultcolor">Businessman</small> </div>
+              <h4 class="darkcolor">Sakib Sarker</h4>
+              <small class="defaultcolor">Frontend Developer</small> </div>
           </div>
           <div class="item">
             <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
               <div class="testimonial-text">
-                <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                <p class="bottom40">আমি এই ওয়েব এপ্লিকেশনে ইউআই ডিজাইনার ও কন্টেন্ট ডেভেলপার হিসেবে নিয়োজিত ছিলাম।</p>
               </div>
-              <div class="testimonial-photo"><img alt="" src="https://i.ibb.co/K6cR41y/IMG-20200510-010716-674.jpg"/></div>
-              <h4 class="darkcolor">Zubin Zucker</h4>
-              <small class="defaultcolor">Businessman</small> </div>
+              <div class="testimonial-photo"><img alt="" src="https://i.postimg.cc/K8XgqmtH/274989892-493596848843608-6440486483695449741-n.jpg"/></div>
+              <h4 class="darkcolor">Sheikh Foysal</h4>
+              <small class="defaultcolor">Content Developer</small> </div>
           </div>
           
           
@@ -52,16 +63,7 @@ const About = () => {
   </div>
 </section>
 </div>
-<div>
-
-<h1 className='h2about'>আমাদের লক্ষ্য</h1>
-<p className='p1about'>জলবায়ু পরিবর্তনের বিরূপ প্রভাব প্রতিরোধের জন্য গাছ লাগানো জরুরি হলেও গড়ে প্রতি ২৪ ঘণ্টায় দেশের প্রায় ১ লাখ ৩০ হাজার পরিবেশবান্ধব ফুল ও ফলের গাছ কাটা হচ্ছে।<br/>
- অথচ লাগানো হচ্ছে মাত্র ৩০ হাজার।(সূত্রে:বাংলাদেশ নার্সারি সমিতি)<br/>যার ভলে পরিবেশের ভারসাম্য নষ্ট হচ্ছে  শুধুমাত্র পরিবেশের ভারসাম্য নষ্ট নয়, গাছ আমাদের বিভিন্নভাবে সহায়তা করে।<br/>
-তাই আমরা মনেকরি, গাছপালা ধ্বংস ও বৃক্ষচ্ছেদন রোধ করার জন্য আমাদের জনসাধারণকে বৃক্ষ রোপণে উৎসাহিত করতে হবে।<br/>অ্যাপ্লিকেশনটি কৃষক এবং জনসাধারণকে গাছের পরিচর্যা করার নিয়মগুলো জানতে এবং বিভিন্ন জাতের বৃক্ষ রোপণে উৎসাহিত করবে।</p>
-<h1 className='h3about'>আমাদের অ্যাপ্লিকেশন সম্পর্কে</h1>
-<p className='p2about'> এই অ্যাপ্লিকেশনটি কৃষক এবং জনসাধারণকে গাছের পরিচর্যা করার নিয়মগুলো জানতে এবং বিভিন্ন জাতের গাছ রোপণে উৎসাহিত করবে।<br/>
-গাছ রোপণের নির্দেশাবলীর জন্য আমরা আমাদের ওয়েব অ্যাপ্লিকেশনে কিছু বিনামূল্যের ভিডিও রেখেছি। <br/>
-আমদের অ্যাপ্লিকেশনে গাছের পরিচর্যা করার নিয়ম এবং বিভিন্ন জাতের বৃক্ষ রোপণের সর্বশেষ খবর, ভিডিও, কোর্স এবং ইকমার্স প্রদান করেছি। <br/>আমরা কৃষকদের জন্য আমাদের ওয়েব অ্যাপ্লিকেশনে ইকমার্স বৈশিষ্ট্য ব্যবহার করেছি যার ব্যবহার করে আধুনিক কৃষি যন্ত্রপাতি,বিদেশি ফলের গাছ, এবং নতুন আবিষ্কৃত উদ্ভিদ কিনতে পারবে।</p> </div>
+<div><h1 className='conus'>যোগাযোগ করুন</h1></div>
 <div className='form7'><div class="container mt-5">
 <form class="row g-3">
 <div class="col-md-6">

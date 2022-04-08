@@ -1,6 +1,40 @@
+.h2about::first-letter{
+	font-size: 60px;
+}
+.h2about{
+	font-size: 50px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	color: #2BAF48;
+	font-weight: 500;
+}
+.p1about{
+	font-size: 16px;
+}
+.h3about{
+	margin-top: 70px;
+	color: #2BAF48;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.p2about{
+	font-size: 16px;
+	margin-bottom: 80px;
+}
+.p2about::first-letter{
+	font-size: 26px;
+}
+.amaderdol{
+	color: #2BAF48;
+	font-size: 50px;
+}
 
 .form7{
-    margin-bottom: 20px;
+    margin-bottom: 150px;
+}
+.conus{
+	margin-top: 150px;
+
 }
 
 .heading-title h2 {
@@ -130,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	position: relative;
 	width: 60px;
-	border: 5px solid rgba(255,255,255,.3);
+	border: 5px solid #2BAF48;
 	margin-left: -30px;
     opacity: .65;
    -webkit-transform: scale(.95);
@@ -139,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
    transform: scale(.95);
 }
 .testimonial-bg-light #owl-thumbs.owl-dots .owl-dot {
-   border: 5px solid rgba(0,0,0,.3);
+   border: 5px solid #2BAF48;
 }
 #owl-thumbs.owl-dots .owl-dot > img {
 	width: 100%;

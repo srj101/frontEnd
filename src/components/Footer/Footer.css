@@ -2,7 +2,7 @@
 
 .team_members.footer-widget h2 {font-size: 16px;color: #fff;}
 
-.teammates_images img {border: 6px solid #fff;border-radius: 73px;width: 40px;height: 40px;}
+.teammates_images img {border: 2px solid #fff;border-radius: 73px;width: 40px;height: 40px;}
 
 .teammates_images {display: flex;justify-content: space-between;}
 
